@@ -7,6 +7,7 @@
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -127,11 +128,44 @@
         <!-- /.container -->
       </section>
       <!-- /.about -->
+
+      <section class="gallery">
+        <div class="gallery-wrapper">
+          <div class="gallery__info">
+            <h2 class="gallery__title title">Lorem ipsum</h2>
+            <p class="p-text gallery__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus labore velit omnis facilis quis eligendi laborum
+              molestias iusto, sit harum?
+            </p>
+          </div>
+
+          <div class="gallery__items swiper-container">
+            <div class="swiper-wrapper">
+              <div class="gallery__item gallery__item--1 swiper-slide">
+                <div class="gallery__overlay"></div>
+              </div>
+              <div class="gallery__item gallery__item--2 swiper-slide">
+                <div class="gallery__overlay"></div>
+              </div>
+              <div class="gallery__item gallery__item--3 swiper-slide">
+                <div class="gallery__overlay"></div>
+              </div>
+              <div class="gallery__item gallery__item--4 swiper-slide">
+                <div class="gallery__overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.gallery__items -->
+      </section>
+      <!-- /.gallery -->
     </main>
     <!-- /.main -->
 
     <!-- JavaScript Files -->
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
