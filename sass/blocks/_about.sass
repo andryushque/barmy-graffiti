@@ -1,0 +1,44 @@
+.about
+  padding: 16rem 0 12rem
+  height: 100vh
+  background: url(../img/about-bg.png) no-repeat
+  background-size: cover
+  &-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__images
+    width: 50%
+  &__content
+    width: 50%
+    display: flex
+    flex-direction: column
+    padding-left: 5rem
+    padding-top: 5rem
+
+  &__suptitle
+    margin-bottom: 3rem
+    font: normal 400 2.4rem "OutrunFuture"
+    color: #95a7ff
+  &__title
+    margin-bottom: 6rem
+    font: normal 400 6rem/6.6rem "OutrunFuture"
+    color: $color-light
+  &__text
+    font: normal 400 1.4rem/3.6rem "Montserrat"
+    letter-spacing: 0.35px
+    color: $color-light
+
+  &__images
+    position: relative
+    display: flex
+    justify-content: flex-end
+  &__image
+    &:first-child
+      max-width: 45rem
+    &:last-child
+      position: absolute
+      left: 0
+      bottom: -10rem
+      z-index: 10
+      max-width: 36rem
