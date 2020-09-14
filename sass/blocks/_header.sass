@@ -1,0 +1,36 @@
+.header
+  padding-top: 13.4rem
+  &-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+
+.nav
+  &__list
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    list-style-type: none
+    margin: 0
+    padding: 0
+  &__item
+    margin: 0 2.5rem 1.5rem
+  &__link
+    position: relative
+    font: normal 400 2.4rem/3rem "OutrunFuture"
+    color: $color-light
+    &:hover
+      .nav
+        &__hover
+          opacity: 1
+          transition: opacity 0.5s ease
+  &__hover
+    position: absolute
+    top: 1.5rem
+    left: 0
+    right: 0
+    z-index: 10
+    opacity: 0
+    width: 100%
+    height: 1.7rem
