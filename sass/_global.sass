@@ -18,6 +18,19 @@ img
   max-width: 100%
   height: auto
 
+.link
+  word-break: break-word
+  text-decoration: none
+  cursor: pointer
+  &:hover
+    text-decoration: none
+
+.title, .p-text
+  margin-top: 0
+  margin-bottom: 0
+  word-break: break-word
+
+/*=== Buttons ===*/
 .button
   outline: none
   border: none
@@ -26,9 +39,16 @@ img
   word-break: break-word
   text-decoration: none
 
-.link
-  word-break: break-word
-  text-decoration: none
-  cursor: pointer
-  &:hover
-    text-decoration: none
+.btn
+  display: block
+  width: 25rem
+  height: 5rem
+  background: url(../img/button-bg.png) no-repeat
+  background-size: cover
+  font: normal 400 1.8rem/5rem "OutrunFuture"
+  letter-spacing: 0.45px
+  &--black
+    color: $color-dark
+    &:hover
+      color: $color-accent
+      transition: color 0.5s ease
