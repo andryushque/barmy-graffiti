@@ -40,7 +40,7 @@ img
   text-decoration: none
 
 .btn
-  display: block
+  display: inline-block
   width: 25rem
   height: 5rem
   background: url(../img/button-bg.png) no-repeat
@@ -51,4 +51,9 @@ img
     color: $color-dark
     &:hover
       color: $color-accent
+      transition: color 0.5s ease
+  &--accent
+    color: $color-accent
+    &:hover
+      color: $color-dark
       transition: color 0.5s ease
